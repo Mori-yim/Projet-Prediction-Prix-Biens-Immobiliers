@@ -30,15 +30,15 @@ Variable	Description
  Type de bien	Appartement, maison, etc.
  Année	Année de construction
  Prix	Variable cible
- Méthodologie
+ Méthodologie <br>
 1️⃣ Analyse exploratoire (EDA)
 Visualisation des données
 Détection des valeurs aberrantes
-Analyse des corrélations
+Analyse des corrélations <br>
 2️⃣ Prétraitement des données
 Gestion des valeurs manquantes
 Encodage des variables catégorielles
-Normalisation / Standardisation
+Normalisation / Standardisation <br>
 3️⃣ Modélisation
 
 Modèles testés :
@@ -46,7 +46,7 @@ Modèles testés :
 Régression Linéaire
 Random Forest
 Gradient Boosting
-XGBoost (meilleur modèle 🚀)
+XGBoost (meilleur modèle 🚀) <br>
 4️⃣ Évaluation
 
 Métriques utilisées :
@@ -65,20 +65,20 @@ Python 🐍
 Pandas / NumPy
 Matplotlib / Seaborn
 Scikit-learn
-XGBoost
+XGBoost <br>
 
- Installation et utilisation
+ Installation et utilisation <br>
 1️⃣ Cloner le projet
 git clone https://github.com/ton-username/real-estate-price-prediction.git
-cd real-estate-price-prediction
+cd real-estate-price-prediction <br>
 2️⃣ Créer un environnement virtuel
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
+venv\Scripts\activate      # Windows <br>
 3️⃣ Installer les dépendances
-pip install -r requirements.txt
+pip install -r requirements.txt <br>
 4️⃣ Lancer le modèle
-python src/train.py
+python src/train.py <br>
 
 
 
